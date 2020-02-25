@@ -1,11 +1,13 @@
 /* Regole per il responsive fino a 420px */
 
 @media screen and (max-width:419px) {
-  .row {
-  max-width: 100vw;
-  }
-  h1 {
-    text-align: left;
+
+ .row {
+   width: 100vw;
+ }
+
+ h1 {
+   text-align: left;
  }
 
   #lezioni .row > .left, #lezioni .row > .right {
@@ -17,10 +19,33 @@
     height: auto;
  }
 
-
 #steps .row > .left,
 #steps .row > .central,
 #steps .row > .right {
   float: none;
-}
+  }
+
+ #why .row img {
+   max-width: 30%;
+   height: auto;
+ }
+ #steps, #why, #lezioni {
+   text-align: left;
+
+ }
+
+ #steps img {
+   max-width: 50%;
+   height: auto;
+ }
+
+ #why .row > .first,
+ #why .row > .second,
+ #why .row > .third {
+   width: 50%;
+ }
+  #steps h1, #why h1 {
+    max-width: 50%;
+  }
+
 }
