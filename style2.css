@@ -1,0 +1,26 @@
+/* Regole per il responsive fino a 420px */
+
+@media screen and (max-width:419px) {
+  .row {
+  max-width: 100vw;
+  }
+  h1 {
+    text-align: left;
+ }
+
+  #lezioni .row > .left, #lezioni .row > .right {
+    float: none;
+ }
+
+  #lezioni img {
+    max-width: 50%;
+    height: auto;
+ }
+
+
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right {
+  float: none;
+}
+}
