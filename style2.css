@@ -3,7 +3,7 @@
 @media screen and (max-width:419px) {
 
  .row {
-   width: 100vw;
+   width: 100%;
  }
 
  h1 {
@@ -12,6 +12,7 @@
 
   #lezioni .row > .left, #lezioni .row > .right {
     float: none;
+    width: 100%;
  }
 
   #lezioni img {
@@ -23,6 +24,7 @@
 #steps .row > .central,
 #steps .row > .right {
   float: none;
+  width: 100%;
   }
 
  #why .row img {
@@ -31,7 +33,6 @@
  }
  #steps, #why, #lezioni {
    text-align: left;
-
  }
 
  #steps img {
@@ -42,10 +43,10 @@
  #why .row > .first,
  #why .row > .second,
  #why .row > .third {
-   width: 50%;
+   width: 100%;
  }
   #steps h1, #why h1 {
-    max-width: 50%;
+    max-width: 100%;
   }
 
 }
